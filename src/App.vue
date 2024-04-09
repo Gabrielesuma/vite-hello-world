@@ -1,14 +1,16 @@
 <template>
   <AppTitleComponent/>
+  <AppHeroComponent/>
 </template>
 
 <script>
-  import AppTitleComponent from './components/AppTitleComponent.vue',
-  import AppHeroComponent from './components/AppHeroComponent.vue'
+  import AppTitleComponent from './components/AppTitleComponent.vue';
+  import AppHeroComponent from './components/AppHeroComponent.vue';
   export default {
     name: 'App',
     components: {
-      AppTitleComponent
+      AppTitleComponent,
+      AppHeroComponent
     },
     data(){
       return {

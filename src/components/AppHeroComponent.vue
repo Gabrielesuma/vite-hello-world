@@ -1,7 +1,5 @@
 <template>
-    <div>
-
-    </div>
+    <img src="../assets/img/jumbo.png" alt="Jumbo">
 </template>
 
 <script>
@@ -16,5 +14,7 @@
 </script>
 
 <style scoped>
-
+    img{
+        width: 100%;
+    }
 </style>
